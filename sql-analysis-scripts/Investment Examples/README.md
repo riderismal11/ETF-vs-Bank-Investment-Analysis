@@ -1,1 +1,1 @@
-
+This SQL script models a $10,000 investment made in 2006 and tracks its growth through 2026. Results show VTI grew to $60,324, SMH to $222,832, and CDs to $22,422 — demonstrating the long-term performance gap between high-risk ETFs and fixed-rate instruments.
