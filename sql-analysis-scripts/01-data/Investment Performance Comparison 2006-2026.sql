@@ -1,21 +1,23 @@
 -- ================================================================
--- Based on your Excel files:
--- · Performance Certificates of Deposit USA Banks
--- · VTI ETF Performance
--- · SMH ETF Performance
--- · Investment Performance Comparison
-
--- Base investment example: $10,000
--- Period: 2006–2026 (21 years)
--- Average fixed CD rate: 3.92%
+--  INVESTMENT PERFORMANCE DATABASE
+--  Based on your Excel files:
+--    · Performance Certificates of Deposit USA Banks
+--    · VTI ETF Performance
+--    · SMH ETF Performance
+--    · Investment Performance Comparison
+--
+--  Base investment example: $10,000
+--  Period: 2006–2026 (21 years)
+--  Fixed average CD rate: 3.92%
 -- ================================================================
 
 
 -- ================================================================
--- TABLA 1: cd_banks
--- Replica: hoja "Best US Banks Performance"
--- Los mejores bancos de CD en USA y su tasa anual
+-- TABLE 1: cd_banks
+-- Replicates: sheet "Best US Banks Performance"
+-- Best CD banks in the USA and their annual rate
 -- ================================================================
+DROP TABLE IF EXISTS cd_banks;
 CREATE TABLE cd_banks (
     bank_name    TEXT    NOT NULL,
     annual_rate  NUMERIC(6,4) NOT NULL    -- 0.0505 = 5.05%
@@ -35,15 +37,16 @@ INSERT INTO cd_banks (bank_name, annual_rate) VALUES
 
 
 -- ================================================================
--- TABLA 2: vti_annual_performance
--- Replica: hoja "VTI Evolución Anual de Precios"
--- Precio de apertura, cierre y rendimiento anual del ETF VTI
+-- TABLE 2: vti_annual_performance
+-- Replicates: sheet "VTI Annual Price History"
+-- Opening price, closing price and annual return of the VTI ETF
 -- ================================================================
+DROP TABLE IF EXISTS vti_annual_performance;
 CREATE TABLE vti_annual_performance (
     year         INTEGER      NOT NULL,
-    open_price   NUMERIC(10,2),          -- precio de apertura en $
-    close_price  NUMERIC(10,2),          -- precio de cierre en $
-    annual_pct   TEXT NOT NULL            -- rendimiento anual: '15.51%'
+    open_price   NUMERIC(10,2),          -- opening price in $
+    close_price  NUMERIC(10,2),          -- closing price in $
+    annual_pct   TEXT NOT NULL            -- annual return: '15.51%'
 );
 
 INSERT INTO vti_annual_performance (year, open_price, close_price, annual_pct) VALUES
@@ -71,10 +74,11 @@ INSERT INTO vti_annual_performance (year, open_price, close_price, annual_pct) V
 
 
 -- ================================================================
--- TABLA 3: smh_annual_performance
--- Replica: hoja "SMH Evolución Anual de Precios"
--- Precio de apertura, cierre y rendimiento anual del ETF SMH
+-- TABLE 3: smh_annual_performance
+-- Replicates: sheet "SMH Annual Price History"
+-- Opening price, closing price and annual return of the SMH ETF
 -- ================================================================
+DROP TABLE IF EXISTS smh_annual_performance;
 CREATE TABLE smh_annual_performance (
     year         INTEGER      NOT NULL,
     open_price   NUMERIC(10,2),
@@ -107,11 +111,12 @@ INSERT INTO smh_annual_performance (year, open_price, close_price, annual_pct) V
 
 
 -- ================================================================
--- TABLA 4: investment_comparison
--- Replica: hoja "Performance Comparison"
--- Comparación directa año a año de los 3 instrumentos +
--- capital acumulado desde $10,000 (igual que tus columnas E, F, G)
+-- TABLE 4: investment_comparison
+-- Replicates: sheet "Performance Comparison"
+-- Direct year-by-year comparison of all 3 instruments +
+-- accumulated capital from $10,000 (matches your columns E, F, G)
 -- ================================================================
+DROP TABLE IF EXISTS investment_comparison;
 CREATE TABLE investment_comparison (
     "Year"                       INTEGER      NOT NULL,
     "VTI(ETF) % of Performance"  TEXT,
