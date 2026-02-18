@@ -1,14 +1,13 @@
 -- ================================================================
---  INVESTMENT PERFORMANCE DATABASE
---  Basado en tus archivos Excel:
---    · Performance Certificates of Deposit USA Banks
---    · VTI ETF Performance
---    · SMH ETF Performance
---    · Investment Performance Comparison
---
---  Inversión base ejemplo: $10,000
---  Período: 2006–2026 (21 años)
---  CD tasa promedio fija: 3.92%
+-- Based on your Excel files:
+-- · Performance Certificates of Deposit USA Banks
+-- · VTI ETF Performance
+-- · SMH ETF Performance
+-- · Investment Performance Comparison
+
+-- Base investment example: $10,000
+-- Period: 2006–2026 (21 years)
+-- Average fixed CD rate: 3.92%
 -- ================================================================
 
 
