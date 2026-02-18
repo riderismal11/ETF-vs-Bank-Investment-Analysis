@@ -1,1 +1,1 @@
-This SQL script creates the Database tables for investment performance comparison, including data for CDs, VTI (ETF), and SMH (ETF) from 2006 to 2026.
+This SQL script builds the relational database for an investment performance case study. It creates and populates four tables storing annual price history and returns for two ETFs (VTI and SMH), CD rates from top U.S. banks, and a year-by-year comparison of a $10,000 investment across all three instruments from 2006 to 2026.
