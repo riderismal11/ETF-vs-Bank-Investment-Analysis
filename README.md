@@ -1,62 +1,82 @@
-# Excel Financial Modeling & Data Visualization
+# ETF vs Traditional Banking Investment Analysis (2006–2026)
 
 ## Overview
 
-This folder contains the Excel-based financial modeling used to compare long-term investment performance between ETFs and U.S. bank Certificates of Deposit.
+This project presents a structured financial analysis comparing long-term investment performance between:
 
-The analysis covers the period from 2006 to 2026 and simulates capital growth based on an initial investment of $10,000.
+- VTI (Total U.S. Market ETF)
+- SMH (Semiconductor Sector ETF)
+- U.S. Bank Certificates of Deposit (CDs)
 
----
-
-## Files Included
-
-- SMH(ETF) Performance.xlsx  
-- VTI(ETF) Performance2.xlsx  
-- Performance Certificates of Deposit USA Banks.xlsx  
-- Investment Performance Comparison.xlsx  
+The study evaluates which strategy delivers stronger long-term capital growth using historical annual returns from 2006 to 2026.
 
 ---
 
-## Analysis Performed in Excel
+## Core Question
 
-- Annual return comparison (VTI vs SMH vs CDs)
-- Compound growth modeling
-- $10,000 investment simulation
-- Year-by-year capital tracking
-- Consolidated performance comparison
-- Structured financial breakdown
+If $10,000 had been invested in 2006, how would each strategy have performed over 21 years?
+
+This project analyzes:
+
+- Annual returns
+- Compound growth
+- Volatility exposure
+- Performance leadership by year
+- Best and worst performing years
+- Cumulative capital appreciation
 
 ---
 
-## Data Visualization & Charts
+## Analytical Approach
 
-Excel was used not only for modeling but also for visual analysis.
+The project combines:
 
-Created visual tools include:
+- Excel-based financial modeling and visual analysis
+- SQL relational database design and advanced querying (Supabase)
 
-- Line charts to compare long-term capital growth
-- Year-by-year performance comparison charts
-- Return trend visualization
-- Side-by-side instrument comparison visuals
-- Quick insight dashboards for rapid performance evaluation
+In Excel, financial data was structured, modeled, and visualized using charts and dynamic visual tools to allow quick performance comparison and trend identification.
 
-These visual elements allow immediate identification of:
+In SQL, structured queries were implemented to automate calculations such as capital growth, ranking, and annual performance comparison.
 
-- Growth acceleration periods
-- Market downturn impact
-- Volatility differences
-- Long-term compounding effects
+---
+
+## Repository Structure
+
+### 📂 Excel Analysis
+Financial modeling, investment simulations, and visual data analysis using Excel charts and performance comparison dashboards.
+
+### 📂 SQL Analysis
+Relational database modeling and advanced SQL queries to calculate cumulative gains, identify annual winners, and rank best/worst performing years.
 
 ---
 
 ## Skills Demonstrated
 
-- Financial modeling in Excel  
-- Data visualization and chart design  
-- Comparative performance analysis  
-- Trend identification  
-- Investment benchmarking  
-- Analytical decision support  
+- Financial performance modeling  
+- Investment growth simulation  
+- Excel data visualization (charts, trend analysis, comparison visuals)  
+- Time-series financial analysis  
+- SQL window functions (LAG, SUM, RANK)  
+- Conditional logic with CASE statements  
+- Multi-table joins  
+- Data transformation  
+- Risk vs return evaluation  
+- Business-focused analytical thinking  
 
-Excel serves as both the modeling engine and the visual reporting layer for rapid financial insight generation.
+---
 
+## Academic Context
+
+Developed as part of my professional portfolio in:
+
+B.S. in Information Systems and Business Analytics  
+Concentration: Cloud Computing  
+Minor: Cybersecurity  
+
+Associate Degree in Business Administration (completed)
+
+---
+
+## Purpose
+
+This project demonstrates the ability to combine financial modeling, database analytics, and visual reporting techniques to produce clear, structured, and data-driven investment insights.
