@@ -1,90 +1,62 @@
-# ETF vs Traditional Banking Investment Analysis (2006–2026)
+# Excel Financial Modeling & Data Visualization
 
 ## Overview
 
-This project presents a structured financial analysis comparing long-term investment performance between:
+This folder contains the Excel-based financial modeling used to compare long-term investment performance between ETFs and U.S. bank Certificates of Deposit.
 
-- VTI (Total U.S. Market ETF)
-- SMH (Semiconductor Sector ETF)
-- U.S. Bank Certificates of Deposit (CDs)
-
-The study evaluates which strategy delivers stronger long-term capital growth using historical annual returns from 2006 to 2026.
+The analysis covers the period from 2006 to 2026 and simulates capital growth based on an initial investment of $10,000.
 
 ---
 
-## Core Question
+## Files Included
 
-If $10,000 had been invested in 2006, how would each strategy have performed over 21 years?
-
-This project analyzes:
-
-- Annual returns
-- Compound growth
-- Volatility exposure
-- Performance leadership by year
-- Best and worst performing years
-- Cumulative capital appreciation
+- SMH(ETF) Performance.xlsx  
+- VTI(ETF) Performance2.xlsx  
+- Performance Certificates of Deposit USA Banks.xlsx  
+- Investment Performance Comparison.xlsx  
 
 ---
 
-## Example Result (Investment Simulation)
+## Analysis Performed in Excel
 
-Using structured financial modeling:
-
-- $10,000 invested in VTI
-- $10,000 invested in SMH
-- $10,000 invested in CDs (3.92% average rate)
-
-Each investment is tracked year-by-year to evaluate total capital growth and cumulative gains.
-
----
-
-## Repository Structure
-
-### 📂 Excel Analysis
-Financial modeling and investment simulation performed using structured Excel datasets.
-
-### 📂 SQL Analysis
-Relational database modeling and advanced SQL queries built in Supabase to automate financial calculations and performance comparisons.
+- Annual return comparison (VTI vs SMH vs CDs)
+- Compound growth modeling
+- $10,000 investment simulation
+- Year-by-year capital tracking
+- Consolidated performance comparison
+- Structured financial breakdown
 
 ---
 
-## Data Sources (Based on Excel Files)
+## Data Visualization & Charts
 
-- SMH(ETF) Performance.xlsx
-- VTI(ETF) Performance2.xlsx
-- Performance Certificates of Deposit USA Banks.xlsx
-- Investment Performance Comparison.xlsx
+Excel was used not only for modeling but also for visual analysis.
+
+Created visual tools include:
+
+- Line charts to compare long-term capital growth
+- Year-by-year performance comparison charts
+- Return trend visualization
+- Side-by-side instrument comparison visuals
+- Quick insight dashboards for rapid performance evaluation
+
+These visual elements allow immediate identification of:
+
+- Growth acceleration periods
+- Market downturn impact
+- Volatility differences
+- Long-term compounding effects
 
 ---
 
 ## Skills Demonstrated
 
-- Financial performance modeling
-- Time-series investment analysis
-- Compound growth simulation
-- SQL window functions (LAG, SUM, RANK)
-- Conditional logic with CASE statements
-- Multi-table joins
-- Data transformation
-- Risk vs return evaluation
-- Structured database design
-- Business-focused data interpretation
+- Financial modeling in Excel  
+- Data visualization and chart design  
+- Comparative performance analysis  
+- Trend identification  
+- Investment benchmarking  
+- Analytical decision support  
 
----
+Excel serves as both the modeling engine and the visual reporting layer for rapid financial insight generation.
 
-## Academic Context
-
-Developed as part of my professional portfolio in:
-
-B.S. in Information Systems and Business Analytics  
-Concentration: Cloud Computing  
-Minor: Cybersecurity  
-
-Associate Degree in Business Administration (completed)
-
----
-
-## Purpose
-
-This project demonstrates the ability to transform financial data into structured, scalable, and business-oriented investment insights using both spreadsheet modeling and database-driven analytics.
