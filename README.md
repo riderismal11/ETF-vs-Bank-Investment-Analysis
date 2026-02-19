@@ -31,22 +31,37 @@ This project analyzes:
 
 The project combines:
 
-- Excel-based financial modeling and visual analysis
+- Excel-based financial modeling and data visualization
 - SQL relational database design and advanced querying (Supabase)
 
-In Excel, financial data was structured, modeled, and visualized using charts and dynamic visual tools to allow quick performance comparison and trend identification.
+In Excel, financial data was structured, modeled, and visualized using charts and comparison tools to enable rapid performance analysis and trend identification.
 
-In SQL, structured queries were implemented to automate calculations such as capital growth, ranking, and annual performance comparison.
+In SQL, structured queries were implemented to automate capital growth calculations, identify annual winners, and rank best/worst performing years using window functions and conditional logic.
+
+---
+
+## Use of Artificial Intelligence Tools
+
+This project was developed with the support of multiple AI tools used as productivity and research assistants.
+
+AI was leveraged to:
+
+- Accelerate query structuring
+- Validate financial modeling logic
+- Refine database design
+- Improve documentation clarity
+
+All financial modeling, database architecture, analytical logic, and validation were designed, structured, and verified independently. AI tools were used as support resources to enhance efficiency and workflow speed — not as substitutes for analytical decision-making.
 
 ---
 
 ## Repository Structure
 
 ### 📂 Excel Analysis
-Financial modeling, investment simulations, and visual data analysis using Excel charts and performance comparison dashboards.
+Financial modeling, investment simulations, and visual performance comparison using charts and structured analysis.
 
 ### 📂 SQL Analysis
-Relational database modeling and advanced SQL queries to calculate cumulative gains, identify annual winners, and rank best/worst performing years.
+Relational database modeling and advanced SQL queries to automate financial metrics and investment comparisons.
 
 ---
 
@@ -79,4 +94,4 @@ Associate Degree in Business Administration (completed)
 
 ## Purpose
 
-This project demonstrates the ability to combine financial modeling, database analytics, and visual reporting techniques to produce clear, structured, and data-driven investment insights.
+This project demonstrates the ability to combine financial modeling, database analytics, and visual reporting techniques to produce structured, scalable, and data-driven investment insights.
