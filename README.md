@@ -14,7 +14,7 @@ The study evaluates which strategy delivers stronger long-term capital growth us
 
 ## Core Question
 
-If $10,000 had been invested in 2006, how would each strategy have performed over 21 years?
+If $10,000 had been invested in 2006, how would each strategy have performed over 20 years?
 
 This project analyzes:
 
