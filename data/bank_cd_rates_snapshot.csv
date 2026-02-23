@@ -1,0 +1,12 @@
+bank,annual_rate_pct,data_type
+BMO Alto,5.05,current_snapshot
+Marcus by Goldman Sachs,4.5,current_snapshot
+SoFi,4.5,current_snapshot
+Ally Bank,4.4,current_snapshot
+Capital One 360,4.3,current_snapshot
+American Express Bank,4.25,current_snapshot
+Discover Bank,4.2,current_snapshot
+Citibank,3.5,current_snapshot
+JPMorgan Chase,2.5,current_snapshot
+Wells Fargo,2.0,current_snapshot
+AVERAGE,3.92,computed_mean
