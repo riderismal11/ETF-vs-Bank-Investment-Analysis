@@ -1,4 +1,4 @@
-#📂 Performance Analysis — Annual Rankings & Winner Comparison
+# 📂 Performance Analysis — Annual Rankings & Winner Comparison
 
 This folder contains the SQL scripts that perform comparative performance analysis across all three instruments: identifying the best and worst years for each ETF, and determining which instrument delivered the highest return each year from 2006 to 2026.
 
