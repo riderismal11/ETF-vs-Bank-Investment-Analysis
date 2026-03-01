@@ -22,7 +22,7 @@ Risk-adjusted performance analysis. Includes scatter plot (risk vs return), vola
 ![Instrument Deep Dive](instrument_deep_dive.png)
 
 ### Risk vs Return
-![Risk vs Return](risk_vs_return.png)
+![Risk vs Return]([risk_vs_return.png](https://github.com/riderismal11/ETF-vs-Bank-Investment-Analysis/blob/main/dashboard-preview/Risk%20vs%20Return.png))
 
 ## Download Dashboard
 
