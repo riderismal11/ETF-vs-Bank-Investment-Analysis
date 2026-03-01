@@ -27,4 +27,4 @@ Risk-adjusted performance analysis. Includes scatter plot (risk vs return), vola
 ## Download Dashboard
 
 The full interactive dashboard file is available at:
-[ETF_Investment_Dashboard.pbix](../dashboard/ETF_Investment_Dashboard.pbix)
+[Dashboard.pbix](../Dashboard/Dashboard.pbix)
