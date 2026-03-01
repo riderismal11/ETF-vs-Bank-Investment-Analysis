@@ -201,6 +201,6 @@ This project was built to demonstrate a complete, production-quality data analyt
 
 ## Connect
 
-- 🔗 [LinkedIn](www.linkedin.com/in/rider-novas)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/rider-novas/)
 - 💻 [Portfolio](https://riderismal11.github.io/portfolio/)
 - 📧 riderismal11@gmail.com
