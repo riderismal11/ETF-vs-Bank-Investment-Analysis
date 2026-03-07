@@ -18,7 +18,7 @@ The study evaluates which strategy delivers stronger long-term capital growth us
 
 ## Business Problem
 
-A retail investor with $10,000 and a 20-year horizon faces a fundamental decision: **passive ETF investing vs. traditional bank instruments**. This project quantifies that decision using 21 years of historical data, evaluating not just returns — but risk, volatility, and capital preservation across multiple market cycles including the 2008 Financial Crisis, COVID-19, and the 2022 rate hike environment.
+A retail investor with $10,000 and a 20-year horizon faces a fundamental decision: **passive ETF investing vs. traditional bank instruments**. This project quantifies that decision using 20 years of historical data, evaluating not just returns — but risk, volatility, and capital preservation across multiple market cycles including the 2008 Financial Crisis, COVID-19, and the 2022 rate hike environment.
 
 **Core question:** Does the higher volatility of ETFs justify their return premium over guaranteed bank instruments?
 
@@ -36,9 +36,9 @@ This project analyzes:
 
 | Instrument | Final Capital | Total Return | Avg Annual Return | Std Deviation | Max Drawdown | Negative Years |
 |---|---|---|---|---|---|---|
-| SMH (Semiconductor ETF) | ~$222,832 | +2,128% | 22.24% | 34.1% | -58.00% (2008) | 6 of 21 |
-| VTI (Total Market ETF) | ~$60,324 | +503% | 10.85% | 18.2% | -37.38% (2008) | 5 of 21 |
-| CD (Bank Average) | ~$22,422 | +124% | 3.92% | 0% | 0% | 0 of 21 |
+| SMH (Semiconductor ETF) | ~$222,832 | +2,128% | 22.24% | 34.1% | -58.00% (2008) | 6 of 20 |
+| VTI (Total Market ETF) | ~$60,324 | +503% | 10.85% | 18.2% | -37.38% (2008) | 5 of 20 |
+| CD (Bank Average) | ~$22,422 | +124% | 3.92% | 0% | 0% | 0 of 20 |
 
 > **Note:** 2026 is year-to-date (partial year). CD rate fixed at 3.92% — overstates real CD performance during 2010–2021 when rates averaged 0.1–0.5%.
 
